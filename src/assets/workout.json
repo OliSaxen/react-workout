@@ -1,0 +1,265 @@
+{
+  "appInfo": {
+    "appName": "Workout",
+    "version": "1",
+    "info": "app where you can track your progress and get info of coming events"
+  },
+  "events": {
+    "running": {
+      "marathon": [
+        {
+          "eventName": "marathon1",
+          "eventId": "1",
+          "date": "2026-1-10",
+          "registerOpen": true
+        },
+        {
+          "eventName": "marathon2",
+          "eventId": "2",
+          "date": "2026-1-12",
+          "registerOpen": false
+        },
+        {
+          "eventName": "marathon3",
+          "eventId": "3",
+          "date": "2026-2-20",
+          "registerOpen": false
+        }
+      ],
+      "halfMarathon": [
+        {
+          "eventName": "halfMarathon1",
+          "eventId": "4",
+          "date": "2026-1-10",
+          "registerOpen": false
+        },
+        {
+          "eventName": "halfMarathon2",
+          "eventId": "5",
+          "date": "2026-1-22",
+          "registerOpen": true
+        },
+        {
+          "eventName": "halfMarathon3",
+          "eventId": "6",
+          "date": "2026-2-3",
+          "registerOpen": true
+        }
+      ]
+    },
+    "swimming": {
+      "openWater": [
+        {
+          "eventName": "openWater1",
+          "eventId": "7",
+          "date": "2026-1-5",
+          "registerOpen": false
+        },
+        {
+          "eventName": "openWater2",
+          "eventId": "8",
+          "date": "2026-1-20",
+          "registerOpen": false
+        },
+        {
+          "eventName": "openWater3",
+          "eventId": "9",
+          "date": "2026-2-28",
+          "registerOpen": false
+        }
+      ],
+      "freeStyle": [
+        {
+          "eventName": "freeStyle1",
+          "eventId": "10",
+          "date": "2026-1-11",
+          "registerOpen": true
+        },
+        {
+          "eventName": "freeStyle2",
+          "eventId": "11",
+          "date": "2026-2-22",
+          "registerOpen": true
+        },
+        {
+          "eventName": "freeStyle3",
+          "eventId": "12",
+          "date": "2026-3-3",
+          "registerOpen": true
+        }
+      ]
+    },
+    "triathlon": {
+      "ironman": [
+        {
+          "eventName": "ironman1",
+          "eventId": "13",
+          "date": "2026-5-3",
+          "registerOpen": true
+        },
+        {
+          "eventName": "ironman2",
+          "eventId": "14",
+          "date": "2026-7-3",
+          "registerOpen": false
+        }
+      ]
+    },
+    "cycling": {
+      "roadRace": [
+        {
+          "eventName": "cycling1",
+          "eventId": "15",
+          "date": "2026-2-3",
+          "registerOpen": false
+        },
+        {
+          "eventName": "cycling2",
+          "eventId": "16",
+          "date": "2026-3-3",
+          "registerOpen": true
+        },
+        {
+          "eventName": "cycling3",
+          "eventId": "17",
+          "date": "2026-4-3",
+          "registerOpen": false
+        },
+        {
+          "eventName": "cycling4",
+          "eventId": "18",
+          "date": "2026-5-3",
+          "registerOpen": false
+        }
+      ]
+    }
+  },
+  "users": [
+    {
+      "userId": "1",
+      "profile": {
+        "firstName": "Oliver",
+        "lastName": "Saxlund",
+        "username": "Oliver",
+        "birthDate": "2004-08-12",
+        "biologicalSex": "male"
+      },
+      "measurements": {
+        "bodyWeight": [
+          {
+            "weight": 80,
+            "unit": "kg",
+            "measuredAt": "2025-5-5"
+          },
+          {
+            "weight": 82,
+            "unit": "kg",
+            "measuredAt": "2025-5-10"
+          },
+          {
+            "weight": 86,
+            "unit": "kg",
+            "measuredAt": "2025-5-15"
+          }
+        ],
+        "backSquatPB": [
+          {
+            "weight": 80,
+            "unit": "kg",
+            "measuredAt": "2025-5-5"
+          },
+          {
+            "weight": 100,
+            "unit": "kg",
+            "measuredAt": "2025-5-10"
+          },
+          {
+            "weight": 110,
+            "unit": "kg",
+            "measuredAt": "2025-5-15"
+          }
+        ],
+        "powerCleanPB": [
+          {
+            "weight": 70,
+            "unit": "kg",
+            "measuredAt": "2025-5-5"
+          },
+          {
+            "weight": 80,
+            "unit": "kg",
+            "measuredAt": "2025-5-10"
+          },
+          {
+            "weight": 90,
+            "unit": "kg",
+            "measuredAt": "2025-5-15"
+          }
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "profile": {
+        "firstName": "Mikael",
+        "lastName": "Lidström",
+        "username": "Lidas",
+        "birthDate": "1982-08-12",
+        "biologicalSex": "male"
+      },
+      "measurements": {
+        "bodyWeight": [
+          {
+            "weight": 90,
+            "unit": "kg",
+            "measuredAt": "2025-7-5"
+          },
+          {
+            "weight": 87,
+            "unit": "kg",
+            "measuredAt": "2025-8-10"
+          },
+          {
+            "weight": 89,
+            "unit": "kg",
+            "measuredAt": "2025-9-15"
+          }
+        ],
+        "backSquatPB": [
+          {
+            "weight": 100,
+            "unit": "kg",
+            "measuredAt": "2025-7-5"
+          },
+          {
+            "weight": 105,
+            "unit": "kg",
+            "measuredAt": "2025-8-10"
+          },
+          {
+            "weight": 120,
+            "unit": "kg",
+            "measuredAt": "2025-9-15"
+          }
+        ],
+        "powerCleanPB": [
+          {
+            "weight": 70,
+            "unit": "kg",
+            "measuredAt": "2025-5-5"
+          },
+          {
+            "weight": 80,
+            "unit": "kg",
+            "measuredAt": "2025-5-10"
+          },
+          {
+            "weight": 85,
+            "unit": "kg",
+            "measuredAt": "2025-5-15"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,3 +1,54 @@
+/*navbar styles from another project of mine*/
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+  list-style: none;
+  gap: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #222;
+  transition: width 0.2s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #222;
+}
 .App {
   text-align: center;
 }
